@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>MAINAMIND ディスコグラフィ</title>
+  <style>
+    body { font-family: 'Helvetica Neue', sans-serif; background: #fefefe; padding: 20px; margin: 0; }
+    h1 { font-size: 28px; border-bottom: 2px solid #aaa; padding-bottom: 10px; }
+    h2 { font-size: 22px; margin-top: 40px; border-bottom: 1px solid #ccc; padding-bottom: 5px; }
+    .grid { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 20px; }
+    .card {
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 220px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.05);
+    }
+    .card a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    .card span {
+      display: block;
+      font-size: 13px;
+      color: #777;
+      margin-top: 4px;
+    }
+    .card:hover {
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .details { margin-top: 60px; }
+    .item { margin-bottom: 50px; }
+    .item-title {
+      font-size: 18px;
+      font-weight: bold;
+      color: #2c3e50;
+      margin-bottom: 5px;
+    }
+    .item-meta {
+      font-size: 14px;
+      color: #777;
+      margin-bottom: 5px;
+    }
+    .item-desc {
+      font-size: 14px;
+      line-height: 1.6;
+    }
+    .item-tracks {
+      font-size: 14px;
+      margin-top: 8px;
+    }
+    .item-tracks li {
+      margin-left: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>MAINAMIND ディスコグラフィ</h1>
+
+  <h2>📀 アルバム（新しい順）</h2>
+  <div class="grid">
+    <div class="card"><a href="#ainowa">AINOWA<span>CD＋配信｜2025年5月</span></a></div>
+    <div class="card"><a href="#n">N<span>CD＋配信｜2024年7月</span></a></div>
+    <div class="card"><a href="#gambit">GAMBIT<span>CD＋配信｜2023年2月</span></a></div>
+  </div>
+
+  <h2>🎧 シングル（新しい順）</h2>
+  <div class="grid">
+    <div class="card"><a href="#love">Love is the whole world<span>配信のみ｜2025年5月</span></a></div>
+    <div class="card"><a href="#boyfriend">Boyfriend<span>配信のみ｜2025年4月</span></a></div>
+    <div class="card"><a href="#believe">Believe in Myself<span>配信のみ｜2025年4月</span></a></div>
+    <div class="card"><a href="#pms">PMS<span>配信のみ｜2024年7月</span></a></div>
+    <div class="card"><a href="#kimi">キミがいい<span>配信のみ｜2024年7月</span></a></div>
+    <div class="card"><a href="#firesoul">FIRE SOUL<span>配信のみ｜2024年7月</span></a></div>
+    <div class="card"><a href="#mada">まだ未体験<span>配信のみ｜2024年6月</span></a></div>
+    <div class="card"><a href="#memory">MEMORY<span>配信のみ｜2024年7月</span></a></div>
+    <div class="card"><a href="#grooving">Grooving<span>配信のみ｜2024年7月</span></a></div>
+    <div class="card"><a href="#baby">Baby Love You<span>配信のみ｜2024年2月</span></a></div>
+    <div class="card"><a href="#cinderella">シンデレラゲーム<span>配信のみ｜2023年6月</span></a></div>
+    <div class="card"><a href="#cantstop">I Can’t Stop Loving You<span>配信のみ｜2023年3月</span></a></div>
+    <div class="card"><a href="#mytreasure">MY TREASURE<span>配信のみ｜2023年2月</span></a></div>
+    <div class="card"><a href="#luckycharm">LUCKY CHARM<span>CDのみ｜2023年9月</span></a></div>
+    <div class="card"><a href="#oni">鬼でもない<span>配信のみ｜2021年10月</span></a></div>
+  </div>
+  <div class="details">
+    <h2>📀 アルバム詳細</h2>
+
+    <div class="item" id="ainowa">
+      <div class="item-title">AINOWA</div>
+      <div class="item-meta">CD＋配信｜2025年5月｜7曲・約25分</div>
+      <div class="item-desc">愛とリズムをテーマにしたセルフプロデュースアルバム。構成の流れが強く意識された名盤。</div>
+      <div class="item-tracks"><strong>収録曲:</strong>
+        <ul>
+          <li>Believe in Myself</li>
+          <li>IAM</li>
+          <li>Love is the whole world</li>
+          <li>mm4</li>
+          <li>シンデレラゲーム</li>
+          <li>Boyfriend</li>
+          <li>Peace</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="item" id="n">
+      <div class="item-title">N</div>
+      <div class="item-meta">CD＋配信｜2024年7月｜7曲</div>
+      <div class="item-desc">女性のリアルな感情や揺らぎをテーマにしたコンセプト作品。エモーショナルなR&Bが連なる。</div>
+      <div class="item-tracks"><strong>収録曲:</strong>
+        <ul>
+          <li>PMS</li>
+          <li>キミがいい</li>
+          <li>FIRE SOUL</li>
+          <li>まだ未体験</li>
+          <li>MEMORY</li>
+          <li>Grooving</li>
+          <li>Baby Love You</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="item" id="gambit">
+      <div class="item-title">GAMBIT</div>
+      <div class="item-meta">CD＋配信｜2023年2月｜11曲</div>
+      <div class="item-desc">挑戦と自己表現を掲げたセルフプロデュース作品。ライブでも人気の楽曲を多数収録。</div>
+      <div class="item-tracks"><strong>収録曲:</strong>
+        <ul>
+          <li>MIND STONE</li>
+          <li>Sweetest Love Affair</li>
+          <li>ナイトクルージング</li>
+          <li>Lovin’U</li>
+          <li>Eat Your Heart</li>
+          <li>Interlude</li>
+          <li>鬼でもない</li>
+          <li>VICTORY</li>
+          <li>FUNKY BIG SLOPE</li>
+          <li>I Can’t Stop Loving You</li>
+          <li>MY TREASURE</li>
+        </ul>
+      </div>
+    </div>
+    <h2>🎧 シングル詳細</h2>
+
+    <div class="item" id="love">
+      <div class="item-title">Love is the whole world</div>
+      <div class="item-meta">配信のみ｜2025年5月1日</div>
+      <div class="item-desc">“愛は世界そのもの”というメッセージを込めた壮大なバラード。</div>
+    </div>
+
+    <div class="item" id="boyfriend">
+      <div class="item-title">Boyfriend</div>
+      <div class="item-meta">配信のみ｜2025年4月5日</div>
+      <div class="item-desc">恋人への切ない感情を繊細に描いたスウィートR&B。</div>
+    </div>
+
+    <div class="item" id="believe">
+      <div class="item-title">Believe in Myself</div>
+      <div class="item-meta">配信のみ｜2025年4月4日</div>
+      <div class="item-desc">自己肯定感と前向きな心を歌ったセルフラブ応援歌。</div>
+    </div>
+
+    <div class="item" id="pms">
+      <div class="item-title">PMS</div>
+      <div class="item-meta">配信のみ｜2024年7月19日</div>
+      <div class="item-desc">女性の揺れる感情をリアルに綴ったR&Bソング。</div>
+    </div>
+
+    <div class="item" id="kimi">
+      <div class="item-title">キミがいい</div>
+      <div class="item-meta">配信のみ｜2024年7月19日</div>
+      <div class="item-desc">“選ぶならキミ”と歌う愛の決断をテーマにした曲。</div>
+    </div>
+
+    <div class="item" id="firesoul">
+      <div class="item-title">FIRE SOUL</div>
+      <div class="item-meta">配信のみ｜2024年7月19日</div>
+      <div class="item-desc">燃え上がる魂をR&Bで昇華したソウルフルな代表曲。</div>
+    </div>
+
+    <div class="item" id="mada">
+      <div class="item-title">まだ未体験</div>
+      <div class="item-meta">配信のみ｜2024年6月14日</div>
+      <div class="item-desc">未知の感情や出会いへの期待を表現したアップテンポ曲。</div>
+    </div>
+
+    <div class="item" id="memory">
+      <div class="item-title">MEMORY</div>
+      <div class="item-meta">配信のみ｜2024年7月19日</div>
+      <div class="item-desc">過去の記憶と再生を切なく表現したラブソング。</div>
+    </div>
+
+    <div class="item" id="grooving">
+      <div class="item-title">Grooving</div>
+      <div class="item-meta">配信のみ｜2024年7月19日</div>
+      <div class="item-desc">日常のリズムを心地よく揺らすグルーヴィな一曲。</div>
+    </div>
+
+    <div class="item" id="baby">
+      <div class="item-title">Baby Love You</div>
+      <div class="item-meta">配信のみ｜2024年2月14日</div>
+      <div class="item-desc">愛の言葉をストレートに綴ったR&Bバラード。</div>
+    </div>
+
+    <div class="item" id="cinderella">
+      <div class="item-title">シンデレラゲーム</div>
+      <div class="item-meta">配信のみ｜2023年6月</div>
+      <div class="item-desc">“恋はゲーム”をテーマにした軽快で甘いラブチューン。</div>
+    </div>
+
+    <div class="item" id="cantstop">
+      <div class="item-title">I Can’t Stop Loving You</div>
+      <div class="item-meta">配信のみ｜2023年3月15日</div>
+      <div class="item-desc">止められない想いを切々と歌う情熱的なバラード。</div>
+    </div>
+
+    <div class="item" id="mytreasure">
+      <div class="item-title">MY TREASURE</div>
+      <div class="item-meta">配信のみ｜2023年2月</div>
+      <div class="item-desc">大切な人や夢に感謝を捧げるメッセージバラード。</div>
+    </div>
+
+    <div class="item" id="luckycharm">
+      <div class="item-title">LUCKY CHARM</div>
+      <div class="item-meta">CDのみ｜2023年9月8日｜品番：MAINAMIND-0002</div>
+      <div class="item-desc">初期代表曲をまとめたMeeUp限定販売CD。サイン入り特典付き。</div>
+    </div>
+
+    <div class="item" id="oni">
+      <div class="item-title">鬼でもない</div>
+      <div class="item-meta">配信のみ｜2021年10月24日</div>
+      <div class="item-desc">MAINAMINDソロデビュー曲。強さと優しさが同居するバラード。</div>
+    </div>
+  </div>
+
+</body>
+</html>
